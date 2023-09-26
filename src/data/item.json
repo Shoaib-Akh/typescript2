@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "name":"book",
+        "price":"30$",
+        "img":"/img1.png"
+
+    },
+    {
+        "id":2,
+        "name":"tree",
+        "price":"60$",
+        "img":"/img1.png"
+
+    }, {
+        "id":3,
+        "name":"table",
+        "price":"50$",
+        "img":"/img1.png"
+
+    }
+]
