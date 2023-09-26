@@ -11,14 +11,9 @@ export default function StoreItem({ id, name, price, img }: StoreItemProps) {
     <Card key={id}>
       <Card.Img variant="top" src={img}></Card.Img>
       <Card.Body>
-        <Card.Title className="d-flex">
-
-            <div>
-                {name}
-            </div>
-            <div>
-                {price}
-            </div>
+        <Card.Title className="d-flex justify-content-between">
+          <div>{name}</div>
+          <div>{price}</div>
         </Card.Title>
       </Card.Body>
     </Card>
